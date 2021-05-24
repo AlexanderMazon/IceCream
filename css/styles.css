@@ -1,0 +1,158 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/*Main*/
+    #main{
+        width: 100%;
+        height: 100vh;
+        background-color: #ffd585;
+        background-image: url('../img/fondo.jpg');
+        background-size: 200% 90%;
+        background-repeat: no-repeat;
+       position: absolute;
+       overflow: hidden;
+    }
+ 
+    #logo
+    {
+        position: absolute;
+        font-family: 'Bauhaus 93';
+        font-size: 20px;
+        color: #004b3e;
+        line-height: 17px;
+        margin: 20px 0px 0px 30px;
+    }
+  
+    #buscar{
+        font-size:16px;
+        height: calc(35px - 8px);
+        width: 35px;
+        top: 12px;
+        left: 1430px;
+        background-color:#01bc9b;
+        color: #fff;
+        border-radius: 35px;
+        text-align: center;
+        padding-top: 8px;
+
+    }
+    #menu{
+        font-size: 25px;
+        left: 1480px;
+        top: 15px;
+    }
+    #buscar,
+    #menu{
+        color: #ffffff;
+        position: absolute;
+        z-index: 99999;
+
+    }
+    #item1{
+        width: 350px;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+    }
+    #item2{
+        width: 400px;
+        position: absolute;
+        top: 30%;
+        left: -13%;
+    }
+    #item3
+    {
+        width: 200px;
+        position: absolute;
+        top: 35%;
+        right: -5%;
+    }
+    #text1,
+    #text2{
+        font-family: 'Calibri';
+        font-size: 10em;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: 8px;
+        opacity: 0.5;
+        position: absolute;
+        top: 10%;
+        left: 33%;
+    }
+    #text2{
+        opacity: 1;
+        top: 25%;
+        left: 48%;
+        z-index: 9999;
+    }
+    #share_content{
+        height: 45px;
+        width: 170px;
+        font-family: 'Bauhaus 93';
+        background:rgb(241, 241, 243);
+        border-radius: 25px;
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        overflow: hidden;
+    }
+    #share_content a{
+    color:#014cbc;
+    font-family: 'Bauhaus 93';
+    text-decoration: none;
+    }
+    #plus_btn,
+    #social1
+  
+    {
+height: 35px;
+width: 35px;
+display: inline-block;
+background:#fffefb;
+border-radius: 50%;
+font-family: 'Calibri';
+font-size: 25px;
+text-align: center;
+line-height: 35px;
+margin-left: 7px;
+margin-top: 5px;
+cursor: pointer;
+    }
+
+    #plus_btn
+    {
+transition: all 4s linear;
+    }
+    #msg
+    {
+display: inline-block;
+font-family: 'arial';
+font-size: 10px;
+letter-spacing: 2px;
+margin-left: 15px;
+position: relative;
+transition: all 0.3s linear;
+    }
+    #social1,
+    #social2,
+    #social3{
+        height: calc(35px - 8px);
+        font-size: 20px;
+        color: #014cbc;
+        position:absolute;
+        left: 40px;
+        top: 50px;
+        padding-top: 8px;
+        transition: all 0.3s linear;
+    }
+
+    #social {
+        left: 80px;
+        transition: all 0.3s linear 4s;
+    }
+    #social {
+        left: 128px;
+        transition: all 0.3s linear 4s;
+    }

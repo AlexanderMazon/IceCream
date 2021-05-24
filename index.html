@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <!--Librerias--->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/regular.css" integrity="sha384-Dn9L7vwedvmbdep+J8U5Zbrp+ES46dt8pm8ZMUu9iOR9isC4+Y/KP1h4StrDd/F+" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/brands.css" integrity="sha384-V5Z1KgRRJyY878qCx7+zUeTDm0FgjoYrbmSortFqRPGz+Ue6XDe4uIiMqB3tB/wd" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+  
+  
+  <!---CSS--->
+      <link rel="stylesheet" href="css/styles.css">
+<!---Cuerpo ---->
+<body>
+      <!---Main--->  
+    <div id="main">
+        
+        <!---====Logo===--->
+          <div id="logo">The<br>IceCream</div>
+          <div id="buscar"><i class="fas fa-search"></i></div>
+          <div id="menu"><i class="fas fa-bars"></i></div> 
+    </div>
+    <!--====Contenedor===-->
+   <div id="container">
+     <div id="text1">ICE</div>
+     <div id="text2">CREAM</div>
+     <img src="img/helado1.png"id="item1">
+     <img src="img/helado4.png"id="item2">
+     <img src="img/helado3.png"id="item3">
+   </div>
+   <!--====Sociales======--->
+    <div id="share_content">
+      <div id="plus_btn">&#43;</div>
+      <div id="msg">Contact</div>
+      
+      <div id="social1"><i class="fab fa-linkedin" ><a href="https://www.linkedin.com/in/erick-alexander-mercado-mazon-554884184/" target="_back">Linkedin</a></i></div>
+     
+    </div>
+    
+</body>
+<script>
+$flag = 0;
+$('#plus_btn').click(function(){
+if($flag == 0) {
+    $('#plus_btn').css({'transform':'rotate(45deg)'});
+    $('#msg').css({'top':'-50px'});
+    $('#social1').css({'top':'0px'});
+    $('#social2').css({'top':'0px'});
+    $('#social3').css({'top':'0px'});
+       $flag=1;
+}
+else{
+    $('#plus_btn').css({'transform':'rotate(0deg)'});
+    $('#msg').css({'top':'-3px'});
+    $('#social1').css({'top':'50px'});
+    $('#social2').css({'top':'50px'});
+    $('#social3').css({'top':'50px'});
+       $flag =0;
+}
+});
+</script>
+</html>
